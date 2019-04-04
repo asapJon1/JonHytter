@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+</head>
+
+<style>
+h2{
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px red;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+main img{
+	max-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: -6px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.kol-1{
+	grid-column: span 1;
+}
+.kol-2{
+	grid-column: span 2;
+}
+</style>
+
+<body>
+  <!--Overskrift-->
+
+  <div class="w3-panel w3-red w3-center w3-wide">
+    <h1>HÜTTERS</h1>
+  </div>
+
+  <!--Navigasjonsbar-->
+
+  <div class="w3-panel w3-light-grey w3-center">
+    <div class="w3-panel">
+      <div class="w3-bar w3-light-grey">
+        <a href="skyteprosjekt2.html" class="w3-bar-item w3-button w3-center">Heim</a>
+        <a href="#" class="w3-bar-item w3-button w3-center">Eksteriør</a>
+        <a href="interior.html" class="w3-bar-item w3-button w3-center">Interiør</a>
+       <li class="dropdown">
+       <a href="javascript:void(0)" class="dropbtn">Kontakt &#9662;</a>
+          <div class="dropdown-content">
+           <a href="ansatt.html">Ansatte</a>
+           <a href="#">Spørsmål</a>
+          </div>
+     </li>
+      </div>
+    </div>
+    </div>
+  </div>
+<main>
+	<div class="kol-1">
+		<a href="stova.html"><img src="https://levehytter-aws.imgix.net/Interiorbilder/IngerMarieGrini_LeveHytter_Linge_63B3658.jpg?auto=compress%2Cformat&bg=%23FFFFFF&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=533&q=90&w=800&s=cab581e2c948fe84a3818b6df6cfaaea">
+		<h2>Stova</h2>	</a>
+	</div>
+	<div class="kol-1">
+		<a href="kjoken.html"><img src="https://levehytter-aws.imgix.net/Interiorbilder/IngerMarieGrini_LeveHytter_Linge_63B3602.jpg?auto=compress%2Cformat&bg=%23FFFFFF&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=536&q=90&w=800&s=6e3d85f769abdaa8adf30ec0ab09ab5c">
+		<h2>Kjøken</h2><a/>
+	</div>
+</main>
+</body>
+<script src="rammeverk.js"></script>

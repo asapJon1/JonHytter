@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+</head>
+
+<style>
+h2{
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px red;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+main img{
+	max-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: -6px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.kol-1{
+	grid-column: span 1;
+}
+.kol-2{
+	grid-column: span 2;
+}
+img {
+    width: 700px;
+    height: 400px;
+    border-width: 15px; 
+    border-style: solid; 
+    border-color: #333; 
+    margin-right: 20px; 
+    margin-bottom: 20px;
+    } 
+h3{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #333
+}
+p{
+  text-align: center;
+  font-size: 15px;
+}
+</style>
+
+<body>
+  <!--Overskrift-->
+
+  <div class="w3-panel w3-red w3-center w3-wide">
+    <h1>HÜTTERS</h1>
+  </div>
+
+  <!--Navigasjonsbar-->
+
+  <div class="w3-panel w3-light-grey w3-center">
+    <div class="w3-panel">
+      <div class="w3-bar w3-light-grey">
+        <a href="skyteprosjekt2.html" class="w3-bar-item w3-button w3-center">Heim</a>
+        <a href="" class="w3-bar-item w3-button w3-center">Eksteriør</a>
+        <a href="interior.html" class="w3-bar-item w3-button w3-center">Interiør</a>
+       <li class="dropdown">
+       <a href="javascript:void(0)" class="dropbtn">Kontakt &#9662;</a>
+          <div class="dropdown-content">
+           <a href="ansatt.html">Ansatte</a>
+           <a href="#">Spørsmål</a>
+          </div>
+     </li>
+      </div>
+    </div>
+    </div>
+  </div>
+  <h3>Finn stova som passar deg best</h3>
+<main>
+  <article>
+    <img class="kol-1" src="stove1.jpg">
+    <p>Her har me ei lys og open Stove som er veldig fin, spesielt i sommarsol. Og veldig fin på vintertider med ein liten og kosleg </p>
+  </article>
+  <article>
+    <img class="kol-1" src="stove2.jpg">
+    <p>Ovanfor har du ei av dei mest lukseriøse hyttestovene på markede. Mange vindauge, høgt under taket og fine sofaer. Her er det berre slå seg ned.</p>
+  </article>
+  <article>
+    <img class="kol-1" src="stova10.jpg">
+    <p>Liten og heimekoslig stova med fine møbler. Steinpeis som gir god stemning og mykje hygge. Ei lampe fra øverste hylle. Gir virkelig god hyttestemimng. </p>
+  </article>
+  <article>
+    <img class="kol-1" src="stova4.jpg">
+    <p>Veldig god plass i denne stova. Kan fort få inn ein sofa eller to til men den hjørnesofaen som er der passar perfekt men det som er. </p>
+  </article>
+  <article>
+    <img class="kol-1" src="stova5.jpg">
+    <p>Det som skiller seg mest ut i denne stova er teppet. Det gir bordet ein fin framvisning. Sofaen står fint. Ein fin lesestol i det eine hjørnet.</p>
+  </article>
+  <article>
+    <img class="kol-1" src="stova6.jpg">
+    <p>Veldig god plass. To godstolar og ein fin og stor hjørnesofa. Får virkelig hyttefeelingen med golvet og veggane. </p>
+  </article>
+  <article>
+    <img class="kol-1" src="stova7.jpg">
+    <p>Litt Sveitsisk i stilen på denne hytta. Store, flotte og varierte vindauger. Fin kontrast mellom kvit vegg og mørke fargar i golv og tak.</p>
+  </article>
+  <article>
+    <img class="kol-1" src="stova8.jpg">
+    <p>Veldig open og fin. Eit etebord også. fin liten peis og ein hyggelig sofa. </p>
+  </article>
+
+</main>
+
+</body>
+<script src="rammeverk.js"></script>
